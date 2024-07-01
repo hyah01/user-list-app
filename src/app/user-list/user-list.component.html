@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="title">
+        <div class="logo">
+            <img src="/assets/logo.jpg" height="50">
+            <h1>User Database</h1>
+        </div>
+        <h3>Retrieve Users Data</h3>
+    </div>
+    <div class="database">
+        <div class="search-container">
+            <div class="search">
+                <h2>Search for User</h2>
+                <div class="search-controls">
+                    <select [(ngModel)]="searchBy">
+                        <option value='name'>Name</option>
+                        <option value='role'>Role</option>
+                    </select>
+                    <input type="text" [(ngModel)]="searchTerm">
+                    <button (click)="onSearch()">Search</button>
+                </div>
+                <div class="add-user">
+                    <button routerLink="/create">Add New User</button>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button *ngIf="totalPages().length > 0" (click)="onPageChange(curPage - 1)">Prev</button>
+            <button *ngFor="let page of totalPages()" (click)="onPageChange(page)" [class.active]="page === curPage">{{page}}</button>
+            <button *ngIf="totalPages().length > 0" (click)="onPageChange(curPage + 1)">Next</button>
+        </div>
+        <div class="center">
+            <div *ngIf = "users.length > 0" class="data">
+                <div *ngFor = "let user of users" class="user-container">
+                    <div class="user">
+                        <h1>{{user.name}}</h1>
+                        <h2>{{user.role}}</h2>
+                        <h2>{{user.media}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
