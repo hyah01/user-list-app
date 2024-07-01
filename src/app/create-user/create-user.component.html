@@ -1,0 +1,26 @@
+
+
+<div class="container">
+    <div class="title">
+        <div class="logo">
+            <img src="/assets/logo.jpg" height="50">
+            <h1>User Database</h1>
+        </div>
+        <h3>Add Users Data</h3>
+    </div>
+    <div class="add-container">
+        <h2>Add User</h2>
+        <form #userForm='ngForm' (ngSubmit) = 'addUser()'>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" [(ngModel)] = "user.name" required>
+            <label for="role">Role:</label>
+            <input type="text" id="role" name="role" [(ngModel)] = "user.role" required>
+            <label for="media">Media:</label>
+            <input type="text" id="media" name="media" [(ngModel)] = "user.media" required>
+            <div class="gap-button">
+                <button type="submit" [disabled] ="!userForm.form.valid">Add</button>
+                <button routerLink="/">Back</button>
+            </div>
+        </form>
+    </div>
+</div>
