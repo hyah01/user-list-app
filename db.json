@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "role": "Information Technology",
+      "media": "@johndoe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "role": "Marketing",
+      "media": "@janesmith"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "role": "Human Resources",
+      "media": "@michaelj"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "role": "Finance",
+      "media": "@emilyb"
+    },
+    {
+      "id": 5,
+      "name": "Chris Davis",
+      "role": "Sales",
+      "media": "@chrisd"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Wilson",
+      "role": "Operations",
+      "media": "@sarahw"
+    },
+    {
+      "id": 7,
+      "name": "Kevin Martinez",
+      "role": "Customer Service",
+      "media": "@kevinm"
+    },
+    {
+      "id": 8,
+      "name": "Jessica Thompson",
+      "role": "Product Development",
+      "media": "@jessicat"
+    },
+    {
+      "id": 9,
+      "name": "Andrew Garcia",
+      "role": "Research and Development",
+      "media": "@andrewg"
+    },
+    {
+      "id": 10,
+      "name": "Amanda Miller",
+      "role": "Public Relations",
+      "media": "@amandam"
+    },
+    {
+      "id": 11,
+      "name": "Jason Lee",
+      "role": "Quality Assurance",
+      "media": "@jasonl"
+    },
+    {
+      "id": 12,
+      "name": "Stephanie Harris",
+      "role": "Supply Chain Management",
+      "media": "@stephanieh"
+    },
+    {
+      "id": 13,
+      "name": "David Clark",
+      "role": "Legal",
+      "media": "@davidc"
+    },
+    {
+      "id": 14,
+      "name": "Melissa Scott",
+      "role": "Training and Development",
+      "media": "@melissas"
+    },
+    {
+      "id": 15,
+      "name": "Ryan Young",
+      "role": "Health and Safety",
+      "media": "@ryany"
+    },
+    {
+      "id": 16,
+      "name": "Johnathan Doe",
+      "role": "Information Technology",
+      "media": "@johnathand"
+    },
+    {
+      "id": 17,
+      "name": "Emily Rose",
+      "role": "Quality Assurance",
+      "media": "@emilyrose"
+    },
+    {
+      "id": 18,
+      "name": "Jessica Brown",
+      "role": "Product Development",
+      "media": "@jessicabrown"
+    },
+    {
+      "id": 19,
+      "name": "Chris Smith",
+      "role": "Sales",
+      "media": "@chrissmith"
+    }
+  ]
+}
